@@ -28,7 +28,7 @@ public class ApplicationBuilderDemoTests {
     public void applicationInReadOnly() {
         //Given
         System.setProperty("mode",runMode);
-        ConfigurableApplicationContext context = ExerciseBuilderDemo.createContext().build().run();
+        ConfigurableApplicationContext context = ExerciseBuilder.createContext().build().run();
         WebTestClient webTestClient = WebTestClient.bindToApplicationContext(context).build();
 
         //When

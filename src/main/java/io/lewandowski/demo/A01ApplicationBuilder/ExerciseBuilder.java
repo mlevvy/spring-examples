@@ -7,7 +7,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.support.GenericApplicationContext;
 
 @SpringBootApplication
-public class ExerciseBuilderDemo {
+public class ExerciseBuilder {
 
 	public static void main(String[] args) {
 		createContext()
